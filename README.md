@@ -7,42 +7,35 @@ Project Description:
 This Flutter project involves creating a mobile application that interacts with a backend server to fetch data via a REST API and stores the retrieved data locally using the Sqflite plugin. The main components of the project include:
 
 REST API Integration:
-Use the http package to make HTTP requests to a backend server.
+
+Used an http package to make HTTP requests to a backend server.
 Fetch data from various endpoints and handle JSON responses.
 Implement error handling for network requests, including timeouts and retries.
 
 Local Storage with Sqflite:
-Use the sqflite package to store data locally on the device.
-Create and manage SQLite databases, including defining tables and columns.
-Perform CRUD (Create, Read, Update, Delete) operations on the local database.
-Ensure data synchronization between the local database and the backend server.
+
+Used an sqflite package to store data locally on the device.
+Created and managed SQLite databases, including defining tables and columns.
+Performed CRUD (Create, Read, Update, Delete) operations on the local database.
+Ensured data synchronization between the local database and the backend server.
 
 State Management:
-Implement state management to handle data flow within the app.
-Use providers or other state management solutions to manage the app's state effectively.
 
-User Interface:
-Design a user-friendly interface to display data fetched from the backend.
-Include features such as list views, detail views, and search functionality.
-Implement pull-to-refresh to update data from the server.
+Implemented state management to handle data flow within the app.
+Used an providers for state management solutions to manage the app's state effectively.
 
-Error Handling and Data Synchronization:
-Handle errors gracefully and provide meaningful feedback to the user.
-Ensure data consistency between the local storage and remote server through background synchronization.
 
 Technologies and Tools:
-Flutter: For building the mobile application's user interface.
-Dart: The programming language used with Flutter.
-http package: For making HTTP requests to the REST API.
-Sqflite package: For local database storage using SQLite.
-Provider (or any other state management solution): For managing the state of the application.
+
+http package: Used for making HTTP requests to the REST API.
+Sqflite package: Used for local database storage using SQLite.
+Provider: Used for managing the state of the application.
 
 Key Features:
-REST API Communication: Fetch and post data to/from a backend server.
+
+REST API Communication: Fetched and posted an data to/from a backend server.
 Local Storage: Persist data locally to ensure offline functionality.
-Data Synchronization: Keep local data in sync with the backend.
-User-friendly UI: Provide a seamless user experience with a clean and intuitive interface.
-Error Handling: Robust error handling and user notifications.
+Data Synchronization: Kept local data in sync with the backend.
 
 
 ## Getting Started
